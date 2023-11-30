@@ -11,45 +11,45 @@ const Process = () => {
         Our Process
       </h1>
       <div className="flex flex-col   justify-center mx-auto md:flex-row">
-        <div className="process__section__content">
+        <div className=" mb-5 md:mr-5 text-center">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step1} alt="" className="process__image" />
           </div>
-          <p className="step">Step 1</p>
-          <p className="process_name">Sign Up</p>
+          <p className="text-blue font-bold text-base">Step 1</p>
+          <p className="text-black font-medium">Sign Up</p>
         </div>
 
-        <div className="process__section__content">
-          <div className="image_div">
+        <div className="mb-5 md:mr-5 text-center">
+          <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step2} alt="" className="process__image" />
           </div>
 
-          <p className="step">Step </p>
-          <p className="process_name">Update Profile</p>
+          <p className="text-blue font-bold text-base">Step 2 </p>
+          <p className="text-black font-medium">Update Profile</p>
         </div>
 
-        <div className="process__section__content">
-          <div className="image_div">
+        <div className="mb-5 md:mr-5 text-center">
+          <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step3} alt="" className="process__image" />
           </div>
-          <p className="step">Step 3</p>
-          <p className="process_name">Upskill or Reskill</p>
+          <p className="text-blue font-bold text-base">Step 3</p>
+          <p className="text-black font-medium">Upskill or Reskill</p>
         </div>
 
-        <div className="process__section__content">
-          <div className="image_div">
+        <div className="mb-5 md:mr-5 text-center">
+          <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step4} alt="" className="process__image" />
           </div>
-          <p className="step">Step 4</p>
-          <p className="process_name">Job Search</p>
+          <p className="text-blue font-bold text-base">Step 4</p>
+          <p className="text-black font-medium">Job Search</p>
         </div>
 
-        <div className="process__section__content">
-          <div className="image_div">
+        <div className="mb-5 md:mr-5 text-center">
+          <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step5} alt="" className="process__image" />
           </div>
-          <p className="step">Step 5</p>
-          <p className="process_name">Get a Job</p>
+          <p className="text-blue font-bold text-base">Step 5</p>
+          <p className="text-black font-medium">Get a Job</p>
         </div>
       </div>
     </div>
