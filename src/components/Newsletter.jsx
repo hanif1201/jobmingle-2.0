@@ -6,18 +6,18 @@ const Newsletter = () => {
         Never miss out on our updates, freebies and news
       </p>
 
-      <form>
-        <div className="newsletter__form__group">
+      <form className="">
+        <div className="newsletter__form__group flex flex-col">
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Enter Your Email Here"
             required
-            className="Newsletter__input"
+            className="Newsletter__input md:w-2/3"
           />
 
-          <button type="submit" className="Newsletter__button">
+          <button type="submit" className="Newsletter__button md:w-1/3">
             Send Message now
           </button>
         </div>

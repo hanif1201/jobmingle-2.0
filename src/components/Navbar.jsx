@@ -118,6 +118,12 @@ const Navbar = () => {
           <Link to="/employer" onClick={toggleMenu}>
             Employer
           </Link>
+          <div className="hidden space-x-4 md:flex">
+            <button className="text-yellow text-2xl font-bold">Sign In</button>
+            <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold">
+              Sign Up
+            </button>
+          </div>
         </div>
       </div>
     </nav>

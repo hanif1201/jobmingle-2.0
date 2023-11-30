@@ -5,10 +5,12 @@ import { FaPhoneVolume } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div className="Contact__section">
-      <h1 className="contact__section__tittle">Contact Information</h1>
+      <h1 className="py-6 text-yellow text-4xl font-bold  text-center">
+        Contact Information
+      </h1>
 
-      <div className="contact__section__content">
-        <div className="contact__office">
+      <div className="contact__section__content flex flex-col md:flex-row">
+        <div className="contact__office ">
           <h1 className="head__office">Head office</h1>
           <div className="location">
             <p className="location__content">
@@ -28,7 +30,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__form">
+        <div className="contact__form md:w-1/2">
           <form>
             <div className="form__group">
               <label htmlFor="name">Name</label>

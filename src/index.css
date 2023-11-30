@@ -54,3 +54,324 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+/* FAQ SECTION */
+
+/* FAQ Container */
+.faq-container {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual FAQ Item */
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+/* FAQ Question */
+.faq-question {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+  background-color: #f0f0f0;
+}
+
+/* FAQ Answer */
+.faq-answer {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  background-color: #f9f9f9;
+  border-left: 3px solid #007bff;
+}
+
+/* Toggle Icon */
+.toggle-icon {
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.googleplay {
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+.Appleplay {
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+
+/* downloadApp */
+.downloadApp__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+
+  /* Set the background image */
+  background-image: url("./assets/hand.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.downloadApp__section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Black overlay with adjustable opacity */
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity (0.5 here) as needed */
+}
+
+.downloadApp__section__content {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.download__section__paragraph {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+}
+
+.download__section__button {
+  display: flex;
+  justify-content: center;
+  background-color: #f6cc16;
+  color: #fff;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+/* contact */
+.Contact__section {
+  margin: 40px 0;
+}
+
+.contact__section__tittle {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  color: #f6cc16;
+}
+
+.contact__office {
+  border: 1px solid #f6cc16;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin: 100px 20px;
+
+  padding: 10px 10px;
+}
+
+.contact__section__content {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+}
+
+.location__content {
+  padding-bottom: 30px;
+}
+
+.head__office {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.icon__name {
+  padding: 3px;
+  border: 1px solid #000000;
+  border-radius: 100%;
+}
+
+.location__content {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.contact__form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  height: 100px;
+  resize: none; /* Prevent resizing of the text area */
+}
+
+.form__button {
+  /* background-color: #f6cc16;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+} */
+  display: flex;
+  justify-content: center;
+  background-color: #f6cc16;
+  color: #fff;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* form button:hover {
+  background-color: #0056b3;
+} */
+
+/* newsletter */
+.Newsletter__section {
+  margin-bottom: 40px;
+}
+
+.newsletter__Section__tittle {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  justify-content: center;
+
+  color: #f6cc16;
+}
+
+.newletter_news {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+
+  line-height: 2rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-container input[type="email"] {
+  width: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* //////////////////////// */
+
+.newsletter__form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Newsletter__button {
+  display: flex;
+  justify-content: center;
+  background-color: #f6cc16;
+  color: #fff;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.Newsletter__input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  height: 60px;
+}

@@ -4,7 +4,7 @@ import { FaGooglePlay } from "react-icons/fa";
 const DownloadApp = () => {
   return (
     <div className="downloadApp__section">
-      <div className="downloadApp__section__content">
+      <div className="downloadApp__section__content md:w-1/2">
         <p className="download__section__paragraph">
           Join the exclusive set of individuals we are currently making their
           dream remote job a reality.

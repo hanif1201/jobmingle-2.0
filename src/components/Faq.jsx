@@ -11,7 +11,9 @@ const Faq = ({ faqs }) => {
 
   return (
     <div className="faq-container">
-      <h1 className="faq-heading">Frequently Asked Questions</h1>
+      <h1 className="fpy-6 text-yellow text-4xl font-bold  text-center">
+        Frequently Asked Questions
+      </h1>
       {faqs.map((faq, index) => (
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
