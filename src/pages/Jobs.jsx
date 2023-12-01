@@ -1,6 +1,7 @@
 import JobMainHero from "../components/JobMainHero";
 import Partner from "../components/Partner";
 import Process from "../components/Process";
+import JobSector from "../components/JobSector";
 import DownloadApp from "../components/DownloadApp";
 import Faq from "../components/Faq";
 import Contact from "../components/Contact";
@@ -44,7 +45,7 @@ const Home = () => {
   return (
     <div>
       <JobMainHero />
-      {/* trending jobs  */}
+      <JobSector />
       {/* digital skills */}
       <Faq faqs={faqs} />
       <DownloadApp />

@@ -17,6 +17,7 @@ export default {
         blue: "#021C5F",
         grey: "#545454",
         lightgrey: "#f5f5f1",
+        neutralgrey: "#A09999",
       },
     },
   },

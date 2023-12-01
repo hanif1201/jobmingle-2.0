@@ -7,48 +7,46 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer__section">
-      <div className="footer__button">
-        <button className="footer__section__button">
+    <footer className="flex flex-col md:flex-row justify-between mx-10 ">
+      <div className="flex flex-row-reverse md:flex-col justify-between md:justify-start md:w-1/3">
+        <button className="flex p-5 bg-yellow max-w-fit text-white text-xl font-bold rounded-lg">
           Download
-          <FaGooglePlay className="googleplay" />
-          <AiOutlineApple className="Appleplay" />
+          <FaGooglePlay className=" ml-2 text-2xl" />
+          <AiOutlineApple className=" text-2xl" />
         </button>
-        <div className="social__buttons">
-          <FiFacebook className="footer__icon" />
-          <CiTwitter className="footer__icon" />
-          <FaInstagram className="footer__icon" />
-          <FaLinkedinIn className="footer__icon" />
+        <div className="flex flex-row">
+          <FiFacebook className="p-1 text-3xl bg-neutralgrey text-white rounded-lg m-1" />
+          <CiTwitter className="p-1 text-3xl bg-neutralgrey text-white rounded-lg m-1" />
+          <FaInstagram className="p-1 text-3xl bg-neutralgrey text-white rounded-lg m-1" />
+          <FaLinkedinIn className="p-1 text-3xl bg-neutralgrey text-white rounded-lg m-1" />
         </div>
       </div>
-
-      <div className="footer__link 001">
-        <h1 className="link__header">Links</h1>
-        <div className="link__div">
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
+      <div className="flex flex-row justify-around py-5 md:w-2/3">
+        <div className="footer__link 001">
+          <h1 className="text-2xl font-bold text-blue">Links</h1>
+          <div className="flex flex-col">
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+          </div>
         </div>
-      </div>
 
-      <div className="footer__link 001">
-        <h1 className="link__header">Links</h1>
-        <div className="link__div">
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
+        <div className="footer__link 001">
+          <h1 className="text-2xl font-bold text-blue">Links</h1>
+          <div className="flex flex-col">
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+          </div>
         </div>
-      </div>
 
-      <div className="footer__link 001">
-        <h1 className="link__header">Links</h1>
-        <div className="link__div">
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
-          <a>Links</a>
+        <div className="footer__link 001">
+          <h1 className="text-2xl font-bold text-blue">Links</h1>
+          <div className="flex flex-col">
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+            <a className="text-lg font-bold text-blue cursor-pointer ">Links</a>
+          </div>
         </div>
       </div>
     </footer>
