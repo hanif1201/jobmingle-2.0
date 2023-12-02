@@ -1,6 +1,6 @@
-import hero from "../assets/hero.png";
+import courseshero from "../assets/courseshero.png";
 
-const Hero = () => {
+const CoursesHero = () => {
   return (
     <div className="flex flex-col-reverse justify-evenly items-end md:space-y-0 md:flex-row px-6 mx-auto mt-10 space-y-0">
       <div className="flex flex-col mt-4 space-y-7 md:w-1/2 pr-7">
@@ -15,18 +15,18 @@ const Hero = () => {
         <h3 className="font-bold text-2xl">Join the JobMingle family today</h3>
         <div className="  space-y-3 md:space-x-3">
           <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold block md:inline">
-            Get Started
+            Skill-Up Here Today
           </button>
           <button className="text-grey p-4 bg-transparent rounded-lg text-2xl font-bold border-solid border-2 border-grey">
-            Find Your Dream Remote Job
+            List Your Courses Here
           </button>
         </div>
       </div>
       <div className="hero__image">
-        <img src={hero} alt="" className="heroImage" />
+        <img src={courseshero} alt="" className="heroImage" />
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default CoursesHero;

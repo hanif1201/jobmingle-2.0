@@ -1,18 +1,6 @@
 import SkillItem from "./SkillItem";
 
-import choose001 from "../assets/choose001.png";
-import choose002 from "../assets/choose002.png";
-import choose003 from "../assets/choose003.png";
-
 const SkillSection = () => {
-  const text01 = "technology";
-
-  const text02 = "Engineeering";
-
-  const text03 = "Science";
-
-  const text04 = "Machine Learning";
-
   return (
     <div className="flex flex-col   ">
       <div className="flex flex-row justify-between mx-4 md:mx-10">
@@ -22,12 +10,12 @@ const SkillSection = () => {
         <p className="py-6 text-yellow text-xl font-bold ">See More</p>
       </div>
       <div className="flex flex-col   justify-center  md:justify-around mx-10 md:flex-row    ">
-        <SkillItem text={text01} image={choose001} />
+        <SkillItem />
 
-        <SkillItem text={text02} image={choose002} />
-        <SkillItem text={text03} image={choose003} />
-        <SkillItem text={text04} image={choose003} />
-        <SkillItem text={text04} image={choose003} />
+        <SkillItem />
+        <SkillItem />
+        <SkillItem />
+        <SkillItem />
       </div>
     </div>
   );

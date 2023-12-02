@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import figma from "../assets/figma.png";
 import { FaRegHeart } from "react-icons/fa6";
 import { CiShare2 } from "react-icons/ci";
 
-const SkillItem = ({ image, text, name }) => {
+const SkillItem = () => {
   return (
     <div className="flex container flex-col   max-w-sm border-2 border-blue border-solid rounded-2xl p-5 pr-10 mb-5 md:mr-10">
       <div className="flex flex-row justify-start ">
@@ -28,10 +28,10 @@ const SkillItem = ({ image, text, name }) => {
   );
 };
 
-SkillItem.propTypes = {
-  image: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-};
+// SkillItem.propTypes = {
+//   image: PropTypes.string.isRequired,
+//   text: PropTypes.string.isRequired,
+//   name: PropTypes.string.isRequired,
+// };
 
 export default SkillItem;
