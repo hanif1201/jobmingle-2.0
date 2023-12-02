@@ -9,6 +9,7 @@ import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
 import SkillSection from "../components/SkillSection";
+import Hero002 from "../components/Hero002";
 
 const Home = () => {
   const faqs = [
@@ -48,10 +49,11 @@ const Home = () => {
       <JobMainHero />
       <JobSector />
       <SkillSection />
+      <SkillSection />
       <Faq faqs={faqs} />
       <DownloadApp />
       <Process />
-      {/* Job Hero */}
+      <Hero002 />
       <Partner />
       <DownloadApp />
       <Contact />

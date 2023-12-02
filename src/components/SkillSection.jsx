@@ -21,7 +21,7 @@ const SkillSection = () => {
         </h1>
         <p className="py-6 text-yellow text-xl font-bold ">See More</p>
       </div>
-      <div className="flex flex-col   justify-center  md:justify-between mx-auto md:flex-row    ">
+      <div className="flex flex-col   justify-center  md:justify-around mx-10 md:flex-row    ">
         <SkillItem text={text01} image={choose001} />
 
         <SkillItem text={text02} image={choose002} />
