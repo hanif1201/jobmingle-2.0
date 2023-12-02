@@ -27,6 +27,7 @@ const SkillSection = () => {
         <SkillItem text={text02} image={choose002} />
         <SkillItem text={text03} image={choose003} />
         <SkillItem text={text04} image={choose003} />
+        <SkillItem text={text04} image={choose003} />
       </div>
     </div>
   );
