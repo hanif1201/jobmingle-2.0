@@ -8,6 +8,7 @@ import Contact from "../components/Contact";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import Copyright from "../components/Copyright";
+import SkillSection from "../components/SkillSection";
 
 const Home = () => {
   const faqs = [
@@ -46,7 +47,7 @@ const Home = () => {
     <div>
       <JobMainHero />
       <JobSector />
-      {/* digital skills */}
+      <SkillSection />
       <Faq faqs={faqs} />
       <DownloadApp />
       <Process />
