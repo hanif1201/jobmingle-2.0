@@ -1,4 +1,4 @@
-import hero from "../assets/JobMainhero.png";
+import hero from "../assets/JobMainHero.png";
 
 const JobMainHero = () => {
   return (
