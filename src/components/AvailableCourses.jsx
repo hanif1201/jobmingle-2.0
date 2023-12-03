@@ -1,6 +1,6 @@
 import CoursesItem from "./CoursesItem";
 
-const Partner = () => {
+const Course = () => {
   return (
     <div className="flex flex-col ">
       <h1 className="py-6 text-yellow text-4xl font-bold  text-center">
@@ -16,4 +16,4 @@ const Partner = () => {
   );
 };
 
-export default Partner;
+export default Course;

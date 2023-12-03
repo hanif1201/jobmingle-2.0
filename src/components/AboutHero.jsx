@@ -1,11 +1,10 @@
-import React from "react";
 import frame1032 from "../assets/Frame 1032.png";
 
 const AboutHero = () => {
   return (
     <div>
       <img src={frame1032} alt="" />
-      <h3 className="text-yellow font-bold text-left text-3xl mt-3 mx-3 md:text-center">
+      <h3 className="text-yellow font-bold text-left text-3xl mt-5 mx-3 md:text-center">
         JobMingle Overview
       </h3>
       <p className="mx-3 text-base font-medium">
