@@ -1,5 +1,11 @@
+import AboutHero from "../components/AboutHero";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <AboutHero />
+    </div>
+  );
 };
 
 export default About;

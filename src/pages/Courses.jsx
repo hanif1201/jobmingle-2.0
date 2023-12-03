@@ -2,6 +2,7 @@ import CoursesHero from "../components/CoursesHero";
 import AvailableCourses from "../components/AvailableCourses";
 import Faq from "../components/Faq";
 import DownloadApp from "../components/DownloadApp";
+import CourseSearch from "../components/CourseSearch";
 import Process from "../components/Process";
 import Contact from "../components/Contact";
 import Newsletter from "../components/Newsletter";
@@ -45,7 +46,7 @@ const Courses = () => {
     <div>
       <CoursesHero />
       <AvailableCourses />
-      {/* course search */}
+      <CourseSearch />
       <Faq faqs={faqs} />
       <DownloadApp />
       <Process />
