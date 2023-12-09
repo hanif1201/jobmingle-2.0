@@ -68,7 +68,10 @@ const Navbar = () => {
         </ul>
         {/* buttons */}
         <div className="hidden space-x-4 md:flex">
-          <button className="text-yellow text-2xl font-bold">Sign In</button>
+          <Link to="/login" className="text-yellow text-2xl font-bold pt-3">
+            <button>Sign In</button>
+          </Link>
+
           <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold">
             Sign Up
           </button>
@@ -119,7 +122,9 @@ const Navbar = () => {
             Employer
           </Link>
           <div className="hidden space-x-4 md:flex">
-            <button className="text-yellow text-2xl font-bold">Sign In</button>
+            <Link to="/login" onClick={toggleMenu}>
+              <button className="text-yellow text-2xl font-bold">Log In</button>
+            </Link>
             <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold">
               Sign Up
             </button>
