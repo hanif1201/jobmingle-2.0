@@ -3,11 +3,11 @@ import image from "../assets/courseshero.png";
 
 const LogIn = () => {
   return (
-    <div className="flex flex-col md:flex-row ">
-      <div className="">
+    <div className="flex flex-col md:flex-row h-screen ">
+      <div className="md:w-1/2 bg-yellow">
         <img src={image} alt="" srcset="" />
       </div>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center md:w-1/2">
         <h1 className="text-2xl font-semibold mt-10 mb-3">
           Welcome Back to JobMingle!
         </h1>
@@ -23,16 +23,18 @@ const LogIn = () => {
           <input
             type="email"
             placeholder=" Enter your Email here"
-            className="border-2 border-solid rounded-md py-2 "
+            className="border-2 border-solid rounded-md py-2 mb-2 "
           />
           <h1>Password</h1>
           <input
             type="password"
             placeholder="Create a Password here"
-            className="border-2 border-solid rounded-md py-2"
+            className="border-2 border-solid rounded-md py-2 mb-2"
           />
 
-          <button className="text-white bg-yellow my-3 py-3">Log In</button>
+          <button className="text-white bg-yellow my-3 py-3 rounded-md">
+            Login
+          </button>
         </form>
       </div>
     </div>
