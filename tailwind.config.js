@@ -20,6 +20,9 @@ export default {
         neutralgrey: "#A09999",
       },
     },
+    backgroundImage: {
+      "hero-background": "url('./src/assets/hero.png')",
+    },
   },
   plugins: [],
 };

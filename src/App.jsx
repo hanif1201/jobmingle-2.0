@@ -14,14 +14,19 @@ import Employer from "./pages/Employer";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 
-function App() {
+function NavbarWithRouter() {
   const location = useLocation();
-  const pathsWithoutNavbar = ["/login"];
+  const pathsWithoutNavbar = ["/login", "/signup"];
+
+  return !pathsWithoutNavbar.includes(location.pathname) && <Navbar />;
+}
+
+function App() {
   return (
     <>
       <Router>
+        <NavbarWithRouter />
         <Routes>
-          {!pathsWithoutNavbar.includes(location.pathname) && <Navbar />}
           <Route path="/" element={<Home />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/courses" element={<Courses />} />

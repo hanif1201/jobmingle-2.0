@@ -1,12 +1,7 @@
-import React from "react";
-import image from "../assets/courseshero.png";
-
 const LogIn = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen ">
-      <div className="md:w-1/2 bg-yellow">
-        <img src={image} alt="" />
-      </div>
+      <div className="md:w-1/2 bg-hero-background bg-no-repeat bg-cover h-screen"></div>
       <div className="flex flex-col justify-center items-center md:w-1/2">
         <h1 className="text-2xl font-semibold mt-10 mb-3">
           Welcome Back to JobMingle!
