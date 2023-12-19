@@ -1,7 +1,6 @@
-import React from "react";
 import image from "../assets/courseshero.png";
 
-const LogIn = () => {
+const SignUp = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen ">
       <div className="md:w-1/2 bg-yellow">
@@ -41,4 +40,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default SignUp;

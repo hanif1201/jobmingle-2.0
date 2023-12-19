@@ -125,9 +125,11 @@ const Navbar = () => {
             <Link to="/login" onClick={toggleMenu}>
               <button className="text-yellow text-2xl font-bold">Log In</button>
             </Link>
-            <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold">
-              Sign Up
-            </button>
+            <Link to="/signup" onClick={toggleMenu}>
+              <button className="text-white p-4 bg-yellow rounded-lg text-2xl font-bold">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
       </div>
