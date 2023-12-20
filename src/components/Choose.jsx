@@ -16,7 +16,7 @@ const Choose = () => {
 
   return (
     <div className="flex flex-col   ">
-      <h1 className="py-6 text-yellow text-4xl font-bold  text-center">
+      <h1 className="py-6 text-yellow text-3xl font-bold  text-center">
         Why Choose Us?
       </h1>
       <div className="flex flex-col   justify-center mx-auto md:flex-row    ">

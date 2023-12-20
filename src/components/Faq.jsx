@@ -11,7 +11,7 @@ const Faq = ({ faqs }) => {
 
   return (
     <div className="faq-container">
-      <h1 className="fpy-6 text-yellow text-4xl font-bold  text-center">
+      <h1 className="fpy-6 text-yellow text-3xl font-bold  text-center">
         Frequently Asked Questions
       </h1>
       {faqs.map((faq, index) => (
