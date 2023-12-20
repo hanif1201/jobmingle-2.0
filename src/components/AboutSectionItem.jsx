@@ -13,7 +13,7 @@ const AboutSectionItem = ({ image, heading, text }) => {
           className="p-5 border-2 border-black rounded-md md:w-1/3 "
         />
 
-        <p className=" md:text-2xl font-medium md:w-2/3 md:ml-10 "> {text}</p>
+        <p className=" md:text-xl font-medium md:w-2/3 md:ml-10 "> {text}</p>
       </div>
     </div>
   );
