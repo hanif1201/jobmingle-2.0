@@ -1,3 +1,5 @@
+import { FcGoogle } from "react-icons/fc";
+
 const LogIn = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen ">
@@ -9,7 +11,8 @@ const LogIn = () => {
         <p className="font-medium text-xs">
           Please, Login to yoour account to access features
         </p>
-        <button className="text-xs font-semibold px-4 py-3 mt-5 border-2 border-solid rounded-md w-5/6">
+        <button className="text-xs font-semibold px-4 py-3 mt-5 border-2 border-solid rounded-md w-5/6 flex justify-center">
+          <FcGoogle className="text-2xl pb-2" />
           Login with Google
         </button>
         <p className="text-xs mt-3"> or enter details below </p>
