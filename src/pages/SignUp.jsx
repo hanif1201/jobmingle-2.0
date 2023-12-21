@@ -31,7 +31,7 @@ const SignUp = () => {
           />
           <h1>Phone Number</h1>
           <input
-            type="number"
+            type="Phone Number"
             placeholder="Enter your phone number here"
             className="border-2 border-solid rounded-md py-2 mb-2"
           />
