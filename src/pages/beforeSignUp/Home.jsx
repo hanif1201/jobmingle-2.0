@@ -1,15 +1,15 @@
-import CoursesHero from "../components/CoursesHero";
-import AvailableCourses from "../components/AvailableCourses";
-import Faq from "../components/Faq";
-import DownloadApp from "../components/DownloadApp";
-import CourseSearch from "../components/CourseSearch";
-import Process from "../components/Process";
-import Contact from "../components/Contact";
-import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
-import Copyright from "../components/Copyright";
+import Choose from "../../components/Choose";
+import Hero from "../../components/Hero";
+import Partner from "../../components/Partner";
+import Process from "../../components/Process";
+import DownloadApp from "../../components/DownloadApp";
+import Faq from "../../components/Faq";
+import Contact from "../../components/Contact";
+import Newsletter from "../../components/Newsletter";
+import Footer from "../../components/Footer";
+import Copyright from "../../components/Copyright";
 
-const Courses = () => {
+const Home = () => {
   const faqs = [
     {
       question: "What is React?",
@@ -44,19 +44,20 @@ const Courses = () => {
   ];
   return (
     <div>
-      <CoursesHero />
-      <AvailableCourses />
-      <CourseSearch />
+      <Hero />
+      <Choose />
+      <Partner />
+      <Process />
+      <DownloadApp />
       <Faq faqs={faqs} />
       <DownloadApp />
-      <Process />
       <Contact />
       <Newsletter />
-      <Footer />
 
+      <Footer />
       <Copyright />
     </div>
   );
 };
 
-export default Courses;
+export default Home;

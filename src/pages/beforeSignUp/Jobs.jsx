@@ -1,13 +1,15 @@
-import Choose from "../components/Choose";
-import Hero from "../components/Hero";
-import Partner from "../components/Partner";
-import Process from "../components/Process";
-import DownloadApp from "../components/DownloadApp";
-import Faq from "../components/Faq";
-import Contact from "../components/Contact";
-import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
-import Copyright from "../components/Copyright";
+import JobMainHero from "../../components/JobMainHero";
+import Partner from "../../components/Partner";
+import Process from "../../components/Process";
+import JobSector from "../../components/JobSector";
+import DownloadApp from "../../components/DownloadApp";
+import Faq from "../../components/Faq";
+import Contact from "../../components/Contact";
+import Newsletter from "../../components/Newsletter";
+import Footer from "../../components/Footer";
+import Copyright from "../../components/Copyright";
+import SkillSection from "../../components/SkillSection";
+import Hero002 from "../../components/Hero002";
 
 const Home = () => {
   const faqs = [
@@ -44,16 +46,18 @@ const Home = () => {
   ];
   return (
     <div>
-      <Hero />
-      <Choose />
-      <Partner />
-      <Process />
-      <DownloadApp />
+      <JobMainHero />
+      <JobSector />
+      <SkillSection />
+      <SkillSection />
       <Faq faqs={faqs} />
+      <DownloadApp />
+      <Process />
+      <Hero002 />
+      <Partner />
       <DownloadApp />
       <Contact />
       <Newsletter />
-
       <Footer />
       <Copyright />
     </div>
