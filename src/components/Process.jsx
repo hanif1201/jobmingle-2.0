@@ -10,8 +10,8 @@ const Process = () => {
       <h1 className="py-6 text-yellow text-3xl font-bold  text-center">
         Our Process
       </h1>
-      <div className="flex    justify-center mx-auto flex-row  overflow-x-scroll">
-        <div className=" mb-5 md:mr-5 text-center min-w-fit mr-7">
+      <div className="flex    justify-center mx-auto flex-col md:flex-row  ">
+        <div className=" mb-5 md:mr-5 text-center  ">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step1} alt="" className="process__image" />
           </div>
@@ -19,7 +19,7 @@ const Process = () => {
           <p className="text-black font-medium">Sign Up</p>
         </div>
 
-        <div className="mb-5 md:mr-5 text-center min-w-fit mr-7">
+        <div className="mb-5 md:mr-5 text-center ">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step2} alt="" className="process__image" />
           </div>
@@ -28,7 +28,7 @@ const Process = () => {
           <p className="text-black font-medium">Update Profile</p>
         </div>
 
-        <div className="mb-5 md:mr-5 text-center min-w-fit mr-7">
+        <div className="mb-5 md:mr-5 text-center ">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step3} alt="" className="process__image" />
           </div>
@@ -36,7 +36,7 @@ const Process = () => {
           <p className="text-black font-medium">Upskill or Reskill</p>
         </div>
 
-        <div className="mb-5 md:mr-5 text-center min-w-fit mr-7">
+        <div className="mb-5 md:mr-5 text-center ">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step4} alt="" className="process__image" />
           </div>
@@ -44,7 +44,7 @@ const Process = () => {
           <p className="text-black font-medium">Job Search</p>
         </div>
 
-        <div className="mb-5 md:mr-5 text-center min-w-fit mr-7">
+        <div className="mb-5 md:mr-5 text-center ">
           <div className="p-2.5 bg-lightgrey rounded-full">
             <img src={step5} alt="" className="process__image" />
           </div>

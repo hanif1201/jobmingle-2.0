@@ -10,7 +10,7 @@ const Partner = () => {
       <h1 className="py-6 text-yellow text-3xl font-bold  text-center">
         Our Partners and Sponsors
       </h1>
-      <div className="flex    justify-center mx-auto flex-row overflow-x-scroll">
+      <div className="flex    justify-center mx-auto flex-col md:flex-row ">
         <PartnerItem image={Google} />
         <PartnerItem image={UNESCO} />
         <PartnerItem image={Binance} />
